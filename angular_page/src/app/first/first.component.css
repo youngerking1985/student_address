@@ -1,0 +1,24 @@
+.item-box{
+    border: 1px solid red;
+    width: 250px;
+    height: 90px;
+}
+.item-box-icon{
+    display: inline-block;
+    border: 1px blue solid;
+    width:90px;
+    height: 90px;
+}
+.item-box-text{
+
+}
+
+.mul-col{
+    column-count: 3;
+    column-gap: 5px;
+    column-rule: 1px solid gray;
+    border-radius: 5px;
+    border:1px solid gray;
+    padding: 10px   ;
+}
+
