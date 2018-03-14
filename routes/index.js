@@ -44,7 +44,7 @@ router.post('/students/:id/info', function(req, res, next) {
     );
     log.trace("update student: " + sql);
     connection.query(sql, function (err, rows) {
-        if (err) return message.sendSuccess(res, log, "false");
+        if (err) return message.sendSuccess(res, log, err);
 
         message.sendSuccess(res, log, "true");
     });
